@@ -1,8 +1,9 @@
-body{
+.App{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image:url("../images/bg.jpg") ;
     background-size: cover;
-    color:rgb(235, 224, 224);
+    background-repeat: no-repeat;
+    color:rgb(0, 0, 0);
     line-height: 1.5;
     font-size: 0.875rem;
   }
@@ -10,9 +11,10 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    height: 90vh;
-    width: 90vw;
+    height: 81vh;
+    width: 100%;
   }
+  
   
   .slider {
     position: absolute;
@@ -27,15 +29,15 @@ body{
   
   .image {
     position: absolute;
-    width: 75vw;
-    height: 53vh;
+    width: 45vw;
+    height: 55vh;
     border-radius: 10px;
   }
   .sec2{
     
     position: absolute;
     top: 20%;
-    right: 8%;
+    right: 11%;
     justify-content: center;
     align-items: center;
   }

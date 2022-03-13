@@ -12,6 +12,9 @@ body{
   font-size: 0.875rem;
 
 }
+.entercode{
+  height: 59.5vh;
+}
 
 .quizcode , .quizname{
   color: #222;
@@ -54,7 +57,6 @@ body{
 }
 .form input {
   background: #fff;
-
   /* border-color: transparent; */
   border-radius: .35rem;
   padding: 0.25rem 0.5rem;

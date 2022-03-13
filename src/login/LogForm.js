@@ -12,10 +12,9 @@ const LogForm = () =>
 {
     let navigate=useNavigate();
     return (
-
+        <div className="parent1">
         <div className="container">
-        <form>
-            
+        <form> 
 
              <h3>Welcome To The Login Page</h3 >
                 <p>Sign In to your Account</p>
@@ -24,19 +23,19 @@ const LogForm = () =>
 
                 {/* ------------------------------------EMAIL FIELD --------------------------------------------*/}
                 <div className="field">
-                    <input type="username" placeholder="username" name="username" id="username" />
+                    <input className="loginput" type="username" placeholder="username" name="name" id="username" />
                 </div>
                 
                 {/* -------------------------------THE CODE BELOW CONTAINS PASSWORD AND FORGOT YOUR PASSWORD FIELDS---------------------------- */}
                 <div className="field">
-                    <input type="password" placeholder="Password" name="password" id="password"/>
+                    <input className="loginput" type="password" placeholder="Password" name="password" id="password"/>
                 </div>
                 <Link to={''} href="#" className="forgot">Forgot your Password?</Link>
                 <br></br>
                 <br></br>
                 
                {/* ------------------JOIN WITH CODE AND SUBMIT BUTTONS BELOW =--------------------- */}
-                <button className="button1" onClick={()=>{navigate('/')}}>Sign In</button>
+                <button className="button1" onClick={()=>{navigate('/dash')}}>Sign In</button>
                     <p>OR</p>
                 <button className="button2" onClick={()=>{navigate('/entercode')}}>Join With Code</button>
 
@@ -46,6 +45,7 @@ const LogForm = () =>
                
             </div>
         </form>
+        </div>
         </div>
 
 

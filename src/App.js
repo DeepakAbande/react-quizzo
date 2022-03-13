@@ -1,13 +1,17 @@
 import "./App.css";
 import Footer from "./header-footer/footer"
 import Header from "./header-footer/Headerslidepage";
+import Jheader from "./joinwithcode/HeaderJoin"
+import Lheader from "./login/Headerlogin";
 import React from "react";
 import Comp from "./joinwithcode/joinwithcode";
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Regform from "./register/Regform";
 import Landingpage from "./carousel/landingpage";
 import LogForm from "./login/LogForm";
-import { useState } from "react";
+// import Head from "./components/Head";
+import Progress from "./components/Progress";
+// import { useState } from "react";
 
 function App() {
   return (
@@ -22,7 +26,7 @@ function App() {
         </Route>
         <Route path="/entercode" element={
           <>
-            <Header />
+            <Jheader />
             <Comp ></Comp>
           </>}>
         </Route>
@@ -36,10 +40,18 @@ function App() {
         </Route>
         <Route path="/login" element={
           <>
-            <Header />
+            <Lheader />
             <LogForm />
           </>
         }>
+        </Route>
+        <Route path="/dash" element={
+          <>
+            <Header/>
+            <Progress />
+          </>
+        }>
+
         </Route>
 
       </Routes>

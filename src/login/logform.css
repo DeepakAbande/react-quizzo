@@ -12,11 +12,13 @@
     
   } */
   
-  body{
+  .parent1{
     
-    background-image: url("http://surl.li/bjgde");
+    /* background-image: url("http://surl.li/bjgde");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    /* color: black; */
+    height: 81.1vh;
   }
   
   /* ------------------ (h3) -> WELCOME TO THE LOGIN PAGE INSIDE FORM/CARD-------------- */
@@ -37,8 +39,8 @@
     align-items: center;
     display: flex !important;
     position: relative;
-    height: 100vh;
-    max-width: 500px;
+    height: 85vh;
+    max-width: 32vw;
     width: 100%;
     margin: auto;
   }
@@ -108,7 +110,7 @@
     
   }
   
-  input{
+  .loginput{
     width: 300px;
     height: 50px;
     background: rgb(217, 243, 247);

@@ -83,7 +83,7 @@ function form() {
                 <input
                   type="radio"
                   id="radio-example-1"
-                  name="radio"
+                  name="gender"
                   className="h-4 w-4 text-gray-700 px-3 py-3 border rounded mr-2"
                 />
                 <label for="radio-example-1" required className="text-white">
@@ -94,7 +94,7 @@ function form() {
                 <input
                   type="radio"
                   id="radio-example-2"
-                  name="radio"
+                  name="role"
                   className="h-4 w-4 text-gray-700 px-3 py-3 border rounded mr-2"
                 />
                 <label for="radio-example-2" className="text-white">
@@ -137,7 +137,7 @@ function form() {
             <td className="py-4">
               <input
                 type="text"
-                name="usernam"
+                name="username"
                 placeholder="Enter User Name"
                 className="text-black w-full mt-1 px-2 py-1  ml-4 border rounded-lg "
                 required
@@ -151,7 +151,7 @@ function form() {
        </td>
        <td>
         
-       <input type='password' name="confpass" placeholder="Confirm Password :"
+       <input type='password' name="pass" placeholder="Confirm Password :"
                         className="text-black mt-1 w-full px-2 py-1 ml-4 border rounded-lg mr-4  "required  />
        </td>
         </tr>

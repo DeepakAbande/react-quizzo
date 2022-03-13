@@ -8,6 +8,7 @@ const Comp = () => {
   const [Q_Code, setQ_Code] = useState("");
   const [Name, setName] = useState("");
   return (
+    <div className="entercode">
     <div className="form">
      <h3 class="font-bold text-2xl text-black">Join With Code</h3>
       <form>
@@ -40,6 +41,7 @@ const Comp = () => {
         </div>
       </form>
       <button className="btn">Go To Quiz</button>
+    </div>
     </div>
     // <main class="bg-white max-w-lg mx-auto p-8 md:p-12 my-10 rounded-lg shadow-2xl">
     //  <section>
