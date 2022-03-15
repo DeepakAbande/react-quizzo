@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.801);
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 9px ;
+}
+nav .icon{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+nav ol{
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+    
+}
+nav ol li{
+    margin: 0 10px;
+}
+nav ol li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+nav ol li:hover a{
+    cursor: pointer;
+    background-color: azure;
+    color: black;
+    border-radius: 20px;
+}

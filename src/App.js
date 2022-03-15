@@ -5,13 +5,13 @@ import Jheader from "./joinwithcode/HeaderJoin"
 import Lheader from "./login/Headerlogin";
 import React from "react";
 import Comp from "./joinwithcode/joinwithcode";
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Regform from "./register/Regform";
 import Landingpage from "./carousel/landingpage";
 import LogForm from "./login/LogForm";
-// import Head from "./components/Head";
+import Dheader from "./components/heading";
 import Progress from "./components/Progress";
-// import { useState } from "react";
+import For_pass from "./forgot_pass/Forgot_pass";
 
 function App() {
   return (
@@ -47,11 +47,19 @@ function App() {
         </Route>
         <Route path="/dash" element={
           <>
-            <Header/>
+            <Dheader/>
             <Progress />
           </>
         }>
 
+        </Route>
+          <Route path="/for_pass" element={
+            <>
+            <Header/>
+            <For_pass></For_pass>
+            </>
+
+          }>
         </Route>
 
       </Routes>

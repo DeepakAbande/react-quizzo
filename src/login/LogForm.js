@@ -30,7 +30,7 @@ const LogForm = () =>
                 <div className="field">
                     <input className="loginput" type="password" placeholder="Password" name="password" id="password"/>
                 </div>
-                <Link to={''} href="#" className="forgot">Forgot your Password?</Link>
+                <Link to={'/for_pass'} href="#" className="forgot">Forgot your Password?</Link>
                 <br></br>
                 <br></br>
                 
