@@ -9,9 +9,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Regform from "./register/Regform";
 import Landingpage from "./carousel/landingpage";
 import LogForm from "./login/LogForm";
-import Dheader from "./components/heading";
-import Progress from "./components/Progress";
-import For_pass from "./forgot_pass/Forgot_pass";
+import Progress from "./dashboard/Progress";
+import Qheader from "./header-footer/Que_page_nav";
+import Forpass from "./forgot_pass/Forgot_pass";
+import Quespage from "./question_page/Que_page";
 
 function App() {
   return (
@@ -45,18 +46,27 @@ function App() {
           </>
         }>
         </Route>
-        <Route path="/dash" element={
+        <Route path="/prac" element={
           <>
-            <Dheader/>
+            <Qheader/>
             <Progress />
           </>
         }>
 
         </Route>
+        <Route path="/ques" element={
+          <>
+            <Qheader/>
+            <Quespage />
+          </>
+        }>
+
+        </Route>
+
           <Route path="/for_pass" element={
             <>
             <Header/>
-            <For_pass></For_pass>
+            <Forpass></Forpass>
             </>
 
           }>

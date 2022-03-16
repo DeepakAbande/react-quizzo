@@ -35,7 +35,7 @@ const LogForm = () =>
                 <br></br>
                 
                {/* ------------------JOIN WITH CODE AND SUBMIT BUTTONS BELOW =--------------------- */}
-                <button className="button1" onClick={()=>{navigate('/dash')}}>Sign In</button>
+                <button className="button1" onClick={()=>{navigate('/prac')}}>Sign In</button>
                     <p>OR</p>
                 <button className="button2" onClick={()=>{navigate('/entercode')}}>Join With Code</button>
 

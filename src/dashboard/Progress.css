@@ -13,116 +13,13 @@ h2{
   padding-left: 10px;
 }
 
-
-/* -----------------HEARDER AND FOOTER STYLING------------------------- */
-/* .header {
-    background-color:	#5a5a5a;
-    height: 50px;
-    padding: 10px;
-    color: #fff;
-    font-weight: bold;
-    width: 100%;
-    top:0;
-    display: flex;
-    
-    
-
-} */
-
-/*--------------SEARCH BUTTON STYLING IN HEADER-----------------*/
-
-.headbtn{
-  border: none;
-  background: none;
-  color: #fff;
-  
-}
-
-
-
-.headbtn:hover{
-  text-decoration: #fff;
-  
-
-}
-
-.searchBar{
-    display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
-    float: right;
-    
-}
-
-.headbuton:hover{
- border: solid 2px #ffffff;
- background-color: #0857e9;
- 
-
-}
-
-.search-header{
-  background-color: #9b9b9b;
-  height: 30px;
-  margin-left: 100px;
-  border-radius: 5px;
-  width: 220px;
-  /* text-align: center; */
-  display: flex;
-  background-color: #fff;
-  
-}
-
-
-/*--------------------PRACTICE AND ENTER CODE BUTTONS STYLING IN HEADER----------------------*/
-
-  .rightHeader{
-    margin-left: auto; 
-    float: right;
-  }
-
-
-  
-  
-  .footer {
-    background-color: rgb(8, 8, 8);
-    height: 80px;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    display: flex;
-  }
-
-  /* --------------------TERMS AND CONDITIONS & FOLLOW US STYLING OF FOOTER BELOW------ */
-
-.terms{
-  
-    padding: 15px;
-    color: #fff;
-    text-decoration: none;
-    white-space: nowrap;
-    
-  }
-  
-  .follow{
-    color: #fff;
-    text-decoration: none;
-    display: flex;
-    padding: 15px;
-    white-space: nowrap;
-    margin-right: 20px;
-    margin-left: auto;
-    
-  
-  }
-
   /*--------------STYLING OF COMPLETE CARD DIVISIONS AND ACKGROUND IMAGE-------------------*/
 
   .App-back {
     background-image: url('./bg2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh;
+    height: 100vh;
     width: 100%;
 }
 
@@ -133,19 +30,17 @@ h2{
 /*-------------------STYLING OF UPPER PROGRESS CARDS----------------*/
  .Parent1{
     display: flex;
-    grid-gap: 50px;
-    justify-content: center;
-
-    
-    
+    grid-gap: 4vw;
+    justify-content: center; 
+    padding-top: 4vh;
 }
 
 /*---------------------STYLING OF LOWER PROGESS CARDS------------------------*/
 .Parent2{
    
-    /* margin-left: 50px; */
     justify-content: center;
-    grid-gap: 50px;
+    padding-top: 4vh;
+    grid-gap: 4vw;
     display: flex;
     
 } 
@@ -163,16 +58,32 @@ h2{
 /*-----------------ANIMATION/STYLING FOR PLAY BUTTON INSIDE EACH CARD----------------*/
 
 .proplay:hover{
-    background-color: #0857e9;
-    border-radius: 10px;
-    width: 60px;
-    display: flex;
-    height: 9mm;
-    transition: 0.2s;
+  
+  background: hsl(244, 60%, 29%);
+    color: rgb(237, 237, 241);
+    padding: 2px 1px;
+    border-color: transparent;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    box-shadow: 1px 1px 2px 2px #494040;
+    cursor: pointer;
+    max-height: 2.5rem;
+    min-width:  6rem;
 }
 
 .proplay{
-  border-radius: 10px;
+  background: hsl(240, 17%, 98%);
+  color: rgb(0, 0, 0);
+    padding: 2px 1px;
+    border-color: transparent;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    box-shadow: 1px 1px 2px 2px #494040;
+    cursor: pointer;
+    max-height: 2.5rem;
+    min-width:  6rem;
 }
 
 /*----------------------STYLING OF EACH CARD IMPORTING IMAGE AND DESCRIPTION------------------------*/
