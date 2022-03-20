@@ -1,9 +1,10 @@
 import React from 'react'
+import "./css/create_que.css";
 
 function Create_que() {
   return (
     <>
-    <div className="top_div">
+    <div className="top_div"> 
       <div className="quiz_name">
         <input type="text" name="que_no" id="" placeholder='Quiz No' className='ique_no' />
       </div>

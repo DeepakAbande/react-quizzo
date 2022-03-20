@@ -1,6 +1,5 @@
 ///--------------------Progress cards of user Dashboard-----------------------///
 
-
 import React from "react";
 import "./Progress.css";
 import Card from "./Card";

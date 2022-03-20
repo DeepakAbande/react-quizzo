@@ -4,7 +4,7 @@
 }
 /* Top div for quiz no and timing */
 .top_div{
-    display: flex;
+    display: flex; 
 }
 .ique_no{
  width: 9vw;

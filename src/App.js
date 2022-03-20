@@ -11,8 +11,14 @@ import Landingpage from "./carousel/landingpage";
 import LogForm from "./login/LogForm";
 import Progress from "./dashboard/Progress";
 import Qheader from "./header-footer/Que_page_nav";
-import Forpass from "./forgot_pass/Forgot_pass";
+import Passchange from "./forgot_pass/Pass_change";
 import Quespage from "./question_page/Que_page";
+import Ccard from "./cc_dashboard/Card";
+import Posts from "./cc_dashboard/post";
+import Cdashhead from "./header-footer/cc_dash_nav";
+import PublicQname from "./quiz_pop/Enter_q_name";
+import Forpass from "./forgot_pass/Forgot_pass";
+import Createq from "./Create_question/Create_que";
 
 function App() {
   return (
@@ -22,8 +28,7 @@ function App() {
           <>
             <Header />
             <Landingpage></Landingpage>
-          </>
-        }>
+          </>}>
         </Route>
         <Route path="/entercode" element={
           <>
@@ -35,41 +40,76 @@ function App() {
           <>
             <Header />
             <Regform ></Regform>
-          </>
-        }>
+          </>}>
 
         </Route>
         <Route path="/login" element={
           <>
             <Lheader />
             <LogForm />
-          </>
-        }>
+          </>}>
         </Route>
+        {/* student dash */}
         <Route path="/prac" element={
           <>
-            <Qheader/>
+            <Qheader />
             <Progress />
-          </>
-        }>
-
+          </>}>
         </Route>
         <Route path="/ques" element={
           <>
-            <Qheader/>
+            <Qheader />
             <Quespage />
-          </>
-        }>
+          </>}>
 
         </Route>
+        <Route path="/for_pass" element={
+          <>
+            <Header />
+            <Forpass />
+          </>}>
+        </Route>
 
-          <Route path="/for_pass" element={
-            <>
-            <Header/>
-            <Forpass></Forpass>
-            </>
+        <Route path="/pass_change" element={
+          <>
+            <Header />
+            <Passchange />
+          </>}>
+        </Route>
+        <Route path="/public_q" element={
+          <>
+            <Cdashhead />
+            <PublicQname />
+          </>}>
+        </Route>
+        <Route path="/public_q" element={
+          <>
+            <Cdashhead />
+            <PublicQname />
+          </>}>
+        </Route>
+        <Route path="/create_q" element={
+          <>
+            <Cdashhead />
+            <Createq />
+          </>}>
+        </Route>
+    {/* creator dash */}
+        <Route path="/cc_dash" element={
+          <>
+          <Cdashhead />
+            <main className="bg-gray-100 h-full md:h-screen w-full">
+              <section className="container mx-auto px-0 md:px-4 py-4">
 
-          }>
+                <div className="grid grid-cols-10 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 justify-items-center gap-4">
+                  {Posts.map(() => (
+                    <Ccard />
+                  ))}
+                </div>
+
+              </section>
+            </main>
+          </>}>
         </Route>
 
       </Routes>

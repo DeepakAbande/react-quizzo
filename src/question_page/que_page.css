@@ -94,7 +94,7 @@
 .que_box_2{
     width: 40%;
 }
-.button{
+/* .button{
     padding-left: 5px;
     padding-right: 5px;
     border: 1px black solid;
@@ -103,7 +103,7 @@
     width: 70%;
     border: 1px black solid;
     justify-self: end;
-}
+} */
 .buttongroup{
     display:flex;
     justify-content: space-around;

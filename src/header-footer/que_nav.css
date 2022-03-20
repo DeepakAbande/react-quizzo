@@ -30,7 +30,7 @@ nav ol{
 } */
 nav ol li a{
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -132,4 +132,7 @@ nav ol li:hover a{
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+  .ent{
+      margin-top: 10%;
   }

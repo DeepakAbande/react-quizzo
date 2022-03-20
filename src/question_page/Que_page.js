@@ -16,7 +16,7 @@ function que_page() {
         <div className="que_container">
           {/* <h2>Question</h2> */}
           <div className="inner_container">
-            <h2>Question no</h2>
+            <h2>Question no</h2> 
             {/* <label htmlFor="h2">__</label> */}
             <h3>Max Points</h3>
             {/* <label className='point_label' htmlFor="h3">__</label> */}

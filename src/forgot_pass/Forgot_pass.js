@@ -1,7 +1,13 @@
 import React from 'react'
-import "./forgot_pass.css";
+import "./for_pass.css";
+import {useNavigate}  from 'react-router-dom';
 
 function Forgot_pass() {
+  let navigate = useNavigate();
+  const mailverified = e => {
+   e.preventDefault();
+   navigate('/pass_change');
+}
   return (
     <div className='Container'>
     <div className='head'>
@@ -10,9 +16,9 @@ function Forgot_pass() {
       <input type="text" className='forgot_pass_in' placeholder='Enter your mail' name='forget_pass_mail' />
     </div>
     <div className='btn_div'>
-    <button className="btn"type="submit" name='submit_forgot_pass'>Submit</button>
+    <button className="btn"type="submit"  onClick={mailverified} name='submit_forgot_pass'>Submit</button>
     </div>
-    </div>
+    </div> 
   )
 }
 
