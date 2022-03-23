@@ -9,7 +9,7 @@ function Forgot_pass() {
    navigate('/pass_change');
 }
   return (
-    <div className='Container'>
+    <form className='Container'>
     <div className='head'>
       <h3>Forgot password? Don't worry</h3>
       
@@ -18,7 +18,7 @@ function Forgot_pass() {
     <div className='btn_div'>
     <button className="btn"type="submit"  onClick={mailverified} name='submit_forgot_pass'>Submit</button>
     </div>
-    </div> 
+    </form> 
   )
 }
 

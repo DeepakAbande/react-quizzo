@@ -30,7 +30,7 @@ function Que_page() {
               />
           </button>
           <div class="dropdown-content">
-            <Link to={''}>Profile</Link>
+            <Link to={'/prof'}>Profile</Link>
             <Link to={''}>Leaderboard</Link>
             <Link to={'/'}>LOgout</Link>
           </div>

@@ -62,7 +62,7 @@ function Create_que() {
       <div className="bottom_buttons">
         <button className="bottom_btns" name='next_btn'>Next</button>
         <button className="bottom_btns" name='clear_btn'>Clear</button>
-        <button className="bottom_btns endbtn" name='EndQ_btn'>End Quiz</button>
+        {/* <button className="bottom_btns endbtn" name='EndQ_btn'>End Quiz</button> */}
         <button className="bottom_btns savebtn" name='SaveQ_btn'>Save Quiz</button>
         </div>
     </section>

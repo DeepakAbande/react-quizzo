@@ -13,12 +13,14 @@ import Progress from "./dashboard/Progress";
 import Qheader from "./header-footer/Que_page_nav";
 import Passchange from "./forgot_pass/Pass_change";
 import Quespage from "./question_page/Que_page";
-import Ccard from "./cc_dashboard/Card";
-import Posts from "./cc_dashboard/post";
+// import Ccard from "./cc_dashboard/Card";
+// import Posts from "./cc_dashboard/post";
 import Cdashhead from "./header-footer/cc_dash_nav";
 import PublicQname from "./quiz_pop/Enter_q_name";
 import Forpass from "./forgot_pass/Forgot_pass";
 import Createq from "./Create_question/Create_que";
+import Ccdash from "./cc_dashboard/cc_dash";
+import Prof from "./Profilepage/proForm";
 
 function App() {
   return (
@@ -54,6 +56,12 @@ function App() {
           <>
             <Qheader />
             <Progress />
+          </>}>
+        </Route>
+        <Route path="/prof" element={
+          <>
+            <Qheader />
+            <Prof />
           </>}>
         </Route>
         <Route path="/ques" element={
@@ -98,7 +106,7 @@ function App() {
         <Route path="/cc_dash" element={
           <>
           <Cdashhead />
-            <main className="bg-gray-100 h-full md:h-screen w-full">
+            {/* <main className="bg-gray-100 h-full md:h-screen w-full">
               <section className="container mx-auto px-0 md:px-4 py-4">
 
                 <div className="grid grid-cols-10 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 justify-items-center gap-4">
@@ -108,7 +116,8 @@ function App() {
                 </div>
 
               </section>
-            </main>
+            </main> */}
+            <Ccdash />
           </>}>
         </Route>
 
