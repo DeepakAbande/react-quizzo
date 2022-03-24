@@ -25,22 +25,27 @@ const ProForm = () => {
                 <div>
                     <table className="proTable">
                         <tr>
-                            <td >First Name </td>
-                            <td> <input className="signInput" type="text" name="fname" id="fname" autoComplete="off" /></td>
+                            <td className="llable">First Name </td>
+                            {/* <td> <input className="signInput" type="text" name="fname" id="fname" autoComplete="off" /></td> */}
+                            <td id="fname">Deepak</td>
                             <td>Last Name</td>
-                            <td><input className="signInput" type="text" name="lname" id="lname" autoComplete="off" /></td>
+                            {/* <td><input className="signInput" type="text" name="lname" id="lname" autoComplete="off" /></td> */}
+                            <td id="fname">Abande</td>
                         </tr>
 
                         <tr>
-                            <td >Email ID </td>
-                            <td> <input className="signInput" type="text" name="email" id="email" autoComplete="off" /></td>
+                            <td className='llable' >Email ID </td>
+                            {/* <td> <input className="signInput" type="text" name="email" id="email" autoComplete="off" /></td> */}
+                            <td id="fname">deepakabande26@gmail.com</td>
                             <td>Phone No</td>
-                            <td><input className="signInput" type="text" name="phone" id="phone" autoComplete="off" /></td>
+                            {/* <td><input className="signInput" type="text" name="phone" id="phone" autoComplete="off" /></td> */}
+                            <td id="fname">9112820800</td>
                         </tr>
 
                         <tr>
-                            <td >Date of Birth </td>
-                            <td> <input className="signInput" type="date" name="Date" id="Date" /></td>
+                            <td className='llable'>Date of Birth </td>
+                            {/* <td> <input className="signInput" type="date" name="Date" id="Date" /></td> */}
+                            <td id="fname">26/05/2001</td>
                             <td>Gender</td>
                             <td>
                                 <input className="signInput" type="radio" name="Gender" id="male" />Male
@@ -48,23 +53,19 @@ const ProForm = () => {
                             </td>
                         </tr>
 
-                        <tr>
-                            <td > Password </td>
+                        {/* <tr>
+                            <td className='llable' > Password </td>
                             <td> <input className="signInput" type="password" name="pwd" id="pwd1" value="Pankaj" /></td>
                             <td>Show Password</td>
                             <td><input className="signInput" type="Checkbox" name="pwd" id="pwd2" onclick="myFunction()" /></td>
-
-
-                        </tr>
-
-
+                        </tr> */}
 
 
                     </table>
 
-                    <div>
+                    {/* <div>
                         <button className='profileSubmit'>Save</button>
-                    </div>
+                    </div> */}
 
                 </div>
             </form>

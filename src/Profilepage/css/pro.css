@@ -18,26 +18,29 @@
   
   #fname, #lname, #phone,#Date,#Gender,
   #email,#pwd1,#pwd2{
-    margin-right: 15ch;
+    margin-right: 10vw;
+    height: 3vh;
     /*align-items:flex-start ;*/
     border-radius: 2vw;
     
   }
-  
-  .signInput{
-    margin: 25px 10px ;
+  /* .signInput{
+    margin: 20px 10px ;
     margin-left: 20px;
     padding-bottom: 5px;
     box-sizing: border-box;
     display: inline-block; 
-    /*align-items: flex-start;*/
-  }
+    /*align-items: flex-start;
+  } */
   
   
   tr{
-    align-items: flex-start;
-    
-    
+    align-items:flex-end; 
+  }
+  
+  th ,td {
+    padding-left: 20px;
+    padding-top: 20px;
   }
   
   .profileSubmit{
@@ -57,18 +60,14 @@
     
     background-color: rgba(255, 255, 255, 0.733);
     color: rgb(8, 8, 1);
-    /*margin: auto auto;*/
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* margin-bottom: 3vw; */
-    margin-top: -50vw;
-    margin-left: 22vw;
+    margin-top: -60vh;
+    margin-left: 28vw;
     padding-left: 8vw;
-    min-height: 12vh;
+    min-height: 18vh;
     border-radius: 2vh;
-    
-
-    
+    height: 40vh;
+    width: 60vw;
+    justify-content: center;
   
   }
   
@@ -77,16 +76,13 @@
     background-size: cover;   */
     /* margin-top: 20vh; */
     display: flex;
-    
-    
-    
   }
   
   .sidebar{
   
     /* width: 250px; */
     width: 18vw;
-    height: 100vh;
+    height: 77vh;
     background-color: #d8e5e6;
     /* display: flex; */
     border: 1vh solid black;

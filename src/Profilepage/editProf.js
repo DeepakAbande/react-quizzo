@@ -52,10 +52,6 @@ const EditProf = () => {
                             <td>Confirm Password</td>
                             <td><input className="signInput" type="text" name="pwd" id="pwd2" /></td>
                         </tr>
-                         
-                        
-                        
-
                     </table>
                 
                       <div>

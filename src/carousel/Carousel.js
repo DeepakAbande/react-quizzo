@@ -14,6 +14,8 @@ const ImageSlider = ({ slides }) => {
       3000
     )
      } );
+
+     
   
 
   const nextSlide = () => {
