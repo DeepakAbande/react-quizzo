@@ -1,19 +1,8 @@
 
-
-
-/* *{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    /* background-image: url("../bg2.jpg");
-    background-size: cover; 
-    
-
-  } */
   .profbg{
   background-image: url("../../images/bg2.jpg");
   background-size:cover;
+  display: flex;
   }
   
   
@@ -21,22 +10,21 @@
   #fname, #lname, #phone,#Date,#Gender,
   #email,#pwd1,#pwd2{
     margin-right: 10vw;
-    height: 3vh;
+    height: 2vh;
     /*align-items:flex-start ;*/
     border-radius: 2vw;
     
   }
-  /* .signInput{
-    margin: 20px 10px ;
+  .signInput{
+    margin: 25px 10px ;
     margin-left: 20px;
-    padding-bottom: 5px;
+    min-height: 3.5vh;
     box-sizing: border-box;
     display: inline-block; 
-    /*align-items: flex-start;
-  } */
+  }
   
   
-  tr{
+  .tr{
     align-items:flex-end; 
   }
   
@@ -54,7 +42,7 @@
     border-radius: 1vw;
     color: white;
     text-align: center;
-    margin-left: 50vw; 
+    margin-left: 43vw; 
   
   }
   
@@ -63,8 +51,8 @@
     
     background-color: rgba(255, 255, 255, 0.479);
     color: rgb(8, 8, 1);
-    margin-top: -60vh;
-    margin-left: 28vw;
+    margin-top: 14vh;
+    margin-left: 13vw;
     padding-left: 8vw;
     min-height: 18vh;
     border-radius: 2vh;
@@ -128,5 +116,10 @@
   .user{
     /* padding-left: 4vw; */
     text-align: center;
+  }
+  .editsavebtn{
+
+    margin-top: 4vh;
+
   }
   

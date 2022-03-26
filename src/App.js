@@ -21,6 +21,7 @@ import Forpass from "./forgot_pass/Forgot_pass";
 import Createq from "./Create_question/Create_que";
 import Ccdash from "./cc_dashboard/cc_dash";
 import Prof from "./Profilepage/proForm";
+import Eprof from "./Profilepage/editProf";
 
 function App() {
   return (
@@ -62,6 +63,12 @@ function App() {
           <>
             <Qheader />
             <Prof />
+          </>}>
+        </Route>
+        <Route path="/edit_prof" element={
+          <>
+            <Qheader />
+            <Eprof />
           </>}>
         </Route>
         <Route path="/ques" element={
