@@ -10,7 +10,7 @@ function form() {
           <div className="flex space-x-4 ">
             <div className="lg:w-1/2 mb-3 lg:mb-2 mx-1 ">
               <div className="px-1 flex items-center ">
-                <label className="mb-4 text-white">First Name</label>
+                <label className="mb-4 text-white">First Name :</label>
                 <input
                   type="text"
                   name="fname"
@@ -23,7 +23,7 @@ function form() {
 
             <div className="lg:w-1/2  mb-3 lg:mb-2 mx-1 px-6">
               <div className="px-1 ">
-                <label className="text-white">Last Name</label>
+                <label className="text-white">Last Name :</label>
                 <input
                   type="text"
                   name="lname"
@@ -38,7 +38,7 @@ function form() {
           <div className="flex space-x-4">
             <div className="lg:w-1/2  mb-3 lg:mb-2 mx-1">
               <div className="flex items-center">
-                <label className="mb-5 mr-6 text-white">Email id</label>
+                <label className="mb-5 mr-6 text-white">Email id :</label>
                 <input
                   type="email"
                   name="email"
@@ -75,7 +75,7 @@ function form() {
                 />
               </div>
             </div>
-            <div className="flex items-center px-20">
+            <div className="flex items-center px-4">
               <label className="block mb-2 text-white">Select Gender :</label>
             </div>
             <div className="flex">
@@ -156,7 +156,7 @@ function form() {
        </td>
         </tr>
       <tr>
-       <td className="py-4 pl-11">
+       <td className="py-4 pl-5">
        <label className="text-white">Confirm password :</label>
        </td>
        <td>

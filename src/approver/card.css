@@ -1,0 +1,138 @@
+/* /* ---------------CSS CODE BELOW FOR DASHBOARD----------------
+--------------- (*)-> FOR EACH AND EVERY ELEMENT and h2 FOR QUIZ NAME ------------ */
+
+/* 
+*{
+    font-family: sans-serif;
+    margin: 0;
+
+} */
+
+h2{
+    color:#f3dfdf;
+    padding-left: 10px;
+  }
+  
+    /*--------------STYLING OF COMPLETE CARD DIVISIONS AND ACKGROUND IMAGE-------------------*/
+  
+    .App-back {
+      background-image: url('../images/approver\ bg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+  }
+  
+  #dropBar{
+    margin-left: -100px ;
+  }
+  
+  /*-------------------STYLING OF UPPER PROGRESS CARDS----------------*/
+   .Parent1{
+      display: flex;
+      grid-gap: 4vw;
+      justify-content: center; 
+      padding-top: 4vh;
+  }
+  
+  /*---------------------STYLING OF LOWER PROGESS CARDS------------------------*/
+  .Parent2{
+     
+      justify-content: center;
+      padding-top: 4vh;
+      grid-gap: 4vw;
+      display: flex;
+      
+  } 
+  
+  
+  /*------------------COMPLETE STYLING OF EACH CARD---------------------*/
+  .card1{
+      background-color: #f3a7b2a3;
+      width: 420px;
+      
+      margin: 10px;
+      border-radius: 30px; 
+  }
+  
+  /*-----------------ANIMATION/STYLING FOR PLAY BUTTON INSIDE EACH CARD----------------*/
+  
+  .view:hover{
+    
+    background: hsl(244, 60%, 29%);
+      color: rgb(237, 237, 241);
+      padding: 2px 1px;
+      border-color: transparent;
+      border-radius: 15px;
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+      box-shadow: 1px 1px 2px 2px #494040;
+      cursor: pointer;
+      max-height: 2rem;
+      min-width:  5.5rem;
+      margin-left: 2vw;
+  }
+  
+  .view{
+    background: hsl(240, 17%, 98%);
+    color: rgb(0, 0, 0);
+      padding: 2px 1px;
+      border-color: transparent;
+      border-radius: 15px;
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+      box-shadow: 1px 1px 2px 2px #494040;
+      cursor: pointer;
+      max-height: 2rem;
+      min-width:  5.5rem;
+      margin-left: 2vw;
+  }
+  
+  /*----------------------STYLING OF EACH CARD IMPORTING IMAGE AND DESCRIPTION------------------------*/
+  .cont1{
+      background-image:  url("../images/holi.jpg");
+      border-radius: 20px;
+      padding-top: 10px;
+      height: 100px;
+     
+      
+  }
+  
+  .des1{
+      display: flex;
+      padding: 30px;
+      justify-content: space-between;
+  }
+  
+  .Play{
+      padding-top: 15px;
+      font-size: 20px;
+      border: 0px;
+      
+  }
+  
+  .drop{
+      float: right;
+  }
+  
+  /*-----------------------STYLING OF PROGRESS BARD INSIDE EACH CARD (round)---------------------------------------*/
+  
+    
+    .mt-100 {
+      margin-top: 10px;
+    }
+    
+    .progress {
+      width: 150px;
+      height: 150px !important;
+      float: left;
+      line-height: 150px;
+      background-color: none;
+      margin: 2px;
+      box-shadow: none;
+      position: relative;
+    }
+    .aprh3{
+        margin-left: .5vw;
+    }
+     

@@ -22,6 +22,8 @@ import Createq from "./Create_question/Create_que";
 import Ccdash from "./cc_dashboard/cc_dash";
 import Prof from "./Profilepage/proForm";
 import Eprof from "./Profilepage/editProf";
+import Apdash from "./approver/apdash";
+import Aprque from "./approver/Aprque";
 
 function App() {
   return (
@@ -126,6 +128,19 @@ function App() {
             </main> */}
             <Ccdash />
           </>}>
+        </Route>
+        <Route path="/approved" element={
+          <> 
+            <Cdashhead />
+            <Apdash/>
+          </>}>
+        </Route>
+        <Route path="/aprque" element={
+          <>
+            <Qheader />
+            <Aprque />
+          </>}>
+
         </Route>
 
       </Routes>
